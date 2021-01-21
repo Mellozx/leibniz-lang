@@ -12,3 +12,5 @@ let rotvec(v, r) = {
 let dot(x, y) = x(x) * x(y) + y(x) * y(y)
 
 let ncr(n, r) = n! / ((n-r)! * r!)
+
+let quaternion = <scalar~real, rotation~vec3>
